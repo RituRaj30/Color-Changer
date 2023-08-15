@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rect {
+  padding-top: 0;
+  border-radius: 0.35rem;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 20%;
+  height: 30vh;
+  margin-left: 40vw;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  margin-top: 10px;
+  height: 6vh;
+  margin-left: 40%;
+  width: 19.5vw;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 15vh;
+}
